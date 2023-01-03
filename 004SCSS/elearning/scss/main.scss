@@ -1,0 +1,24 @@
+@import "./Helpers/variable";
+@import "./Helpers/mixin"; //function
+@import "./Helpers/extend";
+
+// Vendors (library)
+@import "./Base/reset";
+@import "./Base/customize";
+
+@import "./Layouts/header";
+@import "./Layouts/footer";
+@import "./Layouts/intro";
+@import "./Layouts/course";
+@import "./Layouts/viewing";
+@import "./Layouts/banner";
+@import "./Layouts/categories";
+@import "./Layouts/student";
+@import "./Layouts/partners";
+@import "./Layouts/jobs";
+
+@import "./Components//button";
+@import "./Components/cover";
+@import "./Components/card";
+
+@import "./Pages/home"; // Theme (customize library)

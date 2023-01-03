@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- FONT GOOGLE (Work Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOTSTRAP v4.5 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!-- CSS MAIN -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <head>
+      <div
+        class="header__top container-fluid d-flex justify-content-between align-items-center"
+      >
+        <div class="header__left">
+          <a href="tel:094.393.2775" class="mr-4"
+            ><i class="fa-solid fa-phone"></i> 094.393.2775</a
+          >
+          <a href="mailto:nguyenvanthuan20112002@gmail.com"
+            ><i class="fa-solid fa-envelope"></i> nguyenthuan@gmail.com</a
+          >
+        </div>
+        <div class="header__right">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <nav class="navInstruction container navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">
+          <p><i class="fa-solid fa-book"></i> INSTRUCTION</p>
+          <p class="mb-0">EDUCATION</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarInstruction"
+          aria-controls="navbarInstruction"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarInstruction">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                PAGES
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Codes</a>
+                <a class="dropdown-item" href="#">Icon</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </head>
+
+    <!-- CAROUSEL -->
+    <section class="cyberCarousel">
+      <!-- data-ride="carousel" -->
+      <div id="carouselCyber" class="carousel slide">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselCyber"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselCyber" data-slide-to="1"></li>
+          <li data-target="#carouselCyber" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner1.jpg" class="d-block w-100" alt="banner1" />
+            <div class="container carousel-caption">
+              <h5>First slide label</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                vero dignissimos atque itaque unde ab, porro corporis tenetur!
+              </p>
+              <button class="btn">
+                Read more <i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner2.jpg" class="d-block w-100" alt="banner2" />
+            <div class="container carousel-caption">
+              <h5>Second slide label</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                vero dignissimos atque itaque unde ab, porro corporis tenetur!
+              </p>
+              <button class="btn">
+                Read more <i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner3.jpg" class="d-block w-100" alt="banner3" />
+            <div class="container carousel-caption">
+              <h5>Third slide label</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                vero dignissimos atque itaque unde ab, porro corporis tenetur!
+              </p>
+              <button class="btn">
+                Read more <i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselCyber"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselCyber"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- WELCOME -->
+    <section class="welcome section">
+      <div class="heading">
+        <h2>WELCOME TO EDUCATION</h2>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="welcome__content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolores
+          inventore molestias esse natus ipsum officiis repudiandae dicta,
+          distinctio, minima explicabo blanditiis, omnis qui dolorum ipsa. Earum
+          veritatis, architecto sit nisi, ea eligendi nulla, explicabo nemo est
+          adipisci tenetur itaque possimus cumque quas molestiae minima
+          officiis.
+        </p>
+        <div class="welcome__courses container">
+          <div class="row mx-0">
+            <div
+              class="border border-dark mb-4 mb-md-0 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"
+            >
+              <div class="welcome__item">
+                <i class="fa-solid fa-desktop"></i>
+                <h3>Design Course</h3>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+
+            <div
+              class="border border-dark mb-4 mb-md-0 col-12 col-sm-12 col-md-4"
+            >
+              <div class="welcome__item">
+                <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                <h3>Design Course</h3>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+
+            <div
+              class="border border-dark col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"
+            >
+              <div class="welcome__item">
+                <i class="fa-solid fa-chart-column"></i>
+                <h3>Design Course</h3>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR STATS -->
+    <section class="ourStats section">
+      <div class="heading heading--white">
+        <h2>OUR STATS</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="ourStats__content container">
+        <div class="row">
+          <div class="col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="ourStats__item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>Lorem.</h3>
+              <p>45</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="ourStats__item">
+              <i class="fa-solid fa-user"></i>
+              <h3>Lorem.</h3>
+              <p>165</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="ourStats__item">
+              <i class="fa-solid fa-people-group"></i>
+              <h3>Lorem.</h3>
+              <p>563</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="ourStats__item">
+              <i class="fa-solid fa-trophy"></i>
+              <h3>Lorem.</h3>
+              <p>245</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFER -->
+    <section class="offer section">
+      <div class="heading">
+        <h2>WHAT WE OFFER</h2>
+        <p>when climbing the carrer ladder</p>
+      </div>
+      <div class="offer__content container">
+        <div class="row">
+          <div class="col-12 col-lg-4 pb-4 pt-1">
+            <div class="offer__item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>UNDERGRADUATE STUDY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus rem a repellendus est, illo sed.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 pb-4 pt-1">
+            <div class="offer__item">
+              <i class="fa-solid fa-book"></i>
+              <h3>UNDERGRADUATE STUDY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus rem a repellendus est, illo sed.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 pb-4 pt-1">
+            <div class="offer__item">
+              <i class="fa-solid fa-align-left"></i>
+              <h3>UNDERGRADUATE STUDY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus rem a repellendus est, illo sed.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 pb-4 pt-1">
+            <div class="offer__item">
+              <i class="fa-regular fa-comment"></i>
+              <h3>UNDERGRADUATE STUDY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus rem a repellendus est, illo sed.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 pb-4 pt-1">
+            <div class="offer__item">
+              <i class="fa-regular fa-bookmark"></i>
+              <h3>UNDERGRADUATE STUDY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus rem a repellendus est, illo sed.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 pb-4 pt-1">
+            <div class="offer__item">
+              <i class="fa-solid fa-earth-asia"></i>
+              <h3>UNDERGRADUATE STUDY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus rem a repellendus est, illo sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEEDBACK -->
+    <section class="feedback section">
+      <div class="heading heading--white">
+        <h2>TESTIMONIALS</h2>
+        <p>when climbing the carrer ladder</p>
+      </div>
+      <div class="container">
+        <div class="feedback__content">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="feedback__top">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  expedita omnis odio rem aperiam laborum quos.
+                </p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test1.jpg" alt="test1" />
+                <div class="feedback__name">
+                  <p>Mary Jane1</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="feedback__top">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  expedita omnis odio rem aperiam laborum quos.
+                </p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test2.jpg" alt="test2" />
+                <div class="feedback__name">
+                  <p>Mary Jane2</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="feedback__top">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  expedita omnis odio rem aperiam laborum quos.
+                </p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test3.jpg" alt="test3" />
+                <div class="feedback__name">
+                  <p>Mary Jane3</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="feedback__top">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  expedita omnis odio rem aperiam laborum quos.
+                </p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test1.jpg" alt="test4" />
+                <div class="feedback__name">
+                  <p>Mary Jane4</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="feedback__top">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  expedita omnis odio rem aperiam laborum quos.
+                </p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test2.jpg" alt="test1" />
+                <div class="feedback__name">
+                  <p>Mary Jane5</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="news section">
+      <div class="heading">
+        <h2>NEWS & EVENTS</h2>
+        <p>when climbing the carrer ladder</p>
+      </div>
+
+      <div class="container">
+        <div class="news__content">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
+              <img class="img-fluid" src="./img/g7.jpg" alt="new 1" />
+            </div>
+            <div
+              class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 mt-3 mt-md-0"
+            >
+              <h3>
+                <a href="#" data-toggle="modal" data-target="#cyberNews1"
+                  >SIT AMET JUSTO VIATE</a
+                >
+              </h3>
+              <h4>20/11/2021</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+                vel voluptas numquam, animi quaerat suscipit esse ratione
+                architecto quam totam obcaecati, sit tempora omnis aut
+                temporibus mollitia ut nulla illo optio pariatur. Porro rerum,
+                nisi laboriosam, nostrum, possimus ipsum iste quam expedita
+                tempore neque eius.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
+              <h3>
+                <a href="#" data-toggle="modal" data-target="#cyberNews1"
+                  >SIT AMET JUSTO VIATE</a
+                >
+              </h3>
+              <h4>20/11/2021</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+                vel voluptas numquam, animi quaerat suscipit esse ratione
+                architecto quam totam obcaecati, sit tempora omnis aut
+                temporibus mollitia ut nulla illo optio pariatur. Porro rerum,
+                nisi laboriosam, nostrum, possimus ipsum iste quam expedita
+                tempore neque eius.
+              </p>
+            </div>
+
+            <div
+              class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 mt-3 mt-md-0"
+            >
+              <img class="img-fluid" src="./img/g10.jpg" alt="new 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="">
+      <div class="footer__top">
+        <div class="footer__grid container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h3>About us</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores odio aliquam similique veritatis ullam. Mollitia a
+                eveniet odit ratione aliquam.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h3>Latest News</h3>
+              <div class="footer__link">
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="#">Lorem ipsum dolor amet.</a>
+              </div>
+              <div class="footer__link">
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="#">Lorem ipsum dolor amet.</a>
+              </div>
+              <div class="footer__link">
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="#">Lorem ipsum dolor amet.</a>
+              </div>
+              <div class="footer__link">
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="#">Lorem ipsum dolor amet.</a>
+              </div>
+              <div class="footer__link">
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="#">Lorem ipsum dolor amet.</a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <h3>CONTACT INFO</h3>
+              <div class="footer__contact">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href=""> TANH LINH BINH THUAN</a>
+              </div>
+              <div class="footer__contact">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:nguyenthuan@gmail.com">
+                  nguyenthuan@gmail.com</a
+                >
+              </div>
+              <div class="footer__contact">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:094.393.2775"> 094.393.2775</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__form container">
+          <form>
+            <div class="form-group mb-2 form-row">
+              <div class="col-md-12 col-lg-4 col-xl-4">
+                <label class="col-form-label" for="EmailFooter"
+                  >Lorem ipsum dolor.</label
+                >
+              </div>
+              <div class="col-8 col-lg-6 col-xl-6">
+                <input
+                  type="email"
+                  id="EmailFooter"
+                  placeholder="Enter, Email address"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-4 col-lg-2 col-xl-2 text-center">
+                <button type="submit" class="btn">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <p>
+            &copy; Lorem ipsum dolor sit amet consectetur
+            <a href="#">adipisicing</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="cyberNews1" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">INSTRUCTION</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid" src="./img/g12.jpg" alt="g12" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              eius officia autem molestias unde sequi doloribus nam, voluptate
+              libero nemo dolores fuga commodi soluta laboriosam, praesentium
+              sit, sunt et repellendus veniam ab modi quidem rem deserunt.
+              Doloremque necessitatibus ab quisquam impedit error, adipisci
+              voluptate nam laboriosam incidunt ex non, accusamus exercitationem
+              odit, atque iste eius totam facere. Consequuntur recusandae rerum
+              quaerat corporis modi amet natus nesciunt?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- OWL CAROUSEL JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          576: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

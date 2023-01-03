@@ -1,0 +1,68 @@
+.card {
+    height: 275px;
+
+    .card-body {
+        padding: 1rem;
+        .card-title {
+            @include styleText($color-black-0, $fs-0, $fw-1);
+        }
+
+        .card-text {
+            @include styleText($color-gray-0, $fs-0 - 3, $fw-0);
+            margin: 5px 0;
+        }
+
+        .card__star {
+            i {
+                @include styleText($color-yellow-0, $fs-1 - 1, $fw-3);
+            }
+
+            & span:nth-child(2) {
+                @include styleText($color-gray-0, $fs-1, $fw-1);
+            }
+            & span:nth-child(3) {
+                @include styleText($color-gray-0, $fs-1, $fw-0);
+            }
+        }
+
+        .car__price {
+            padding: $pd-2 + 2 0;
+            text-align: right;
+            span {
+                &:first-child {
+                    @include styleText($color-gray-0, $fs-1 - 1, $fw-0);
+                    text-decoration: line-through;
+                }
+                &:last-of-type {
+                    @include styleText($color-black-0, $fs-0, $fw-1);
+                }
+            }
+        }
+    }
+}
+
+.card--feedback {
+    height: 280px;
+    .card-body {
+        padding: 2rem;
+
+        .card__top {
+            display: flex;
+            margin-bottom: $mg-2 - 5;
+            .card__avatar {
+                margin-right: $mg-2 - 5;
+                img {
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 50%;
+                }
+            }
+            .card__name {
+                margin-bottom: 0px;
+            }
+        }
+        .card-text {
+            @include styleText($color-black-0, $fs-0, $fw-0);
+        }
+    }
+}

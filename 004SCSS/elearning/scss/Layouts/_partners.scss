@@ -1,0 +1,15 @@
+.partners {
+    background-color: $color-gay-6;
+    padding: $pd-3 0;
+    .partners__text {
+        text-align: center;
+    }
+    .partners__content {
+        width: 70%;
+        margin: auto;
+        .partners__imgs {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

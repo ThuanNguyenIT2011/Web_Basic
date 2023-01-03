@@ -1,0 +1,10 @@
+.viewing {
+    padding: $pd-3 + 2 0px;
+    h2 {
+        font-size: $fs-3;
+    }
+    .viewing__content {
+        width: 90%;
+        margin: auto;
+    }
+}
